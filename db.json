@@ -1,4 +1,128 @@
 {
+	"users": [
+		{
+			"id": 1,
+			"email": "bagnarx@gmail.com",
+			"password": "rxhealthSystem",
+			"profile_image": "https://media-exp1.licdn.com/dms/image/C4D03AQEq-1zU0TvR4A/profile-displayphoto-shrink_800_800/0/1654120070929?e=1672876800&v=beta&t=FE57xxQXLH7VwsZLqyAdQ52fpoYBU51ckm77UuTn-OE",
+			"first_name": "bagna",
+			"last_name": "omar",
+			"role": "admin",
+			"access": [
+				{
+					"menu": "employee management",
+					"routes": [
+						"add new employee",
+						"pending registration",
+						"active employees",
+						"retired employees",
+						"contract staff",
+						"excuse duty",
+						"import employees",
+						"uploaded documents"
+					]
+				},
+				{
+					"menu": "benefit management",
+					"routes": ["create benefit", "view benefits"]
+				},
+				{
+					"menu": "provider management",
+					"routes": [
+						"activate a provider",
+						"active providers",
+						"all providers",
+						"providers with bills",
+						"providers without bills"
+					]
+				},
+				{
+					"menu": "healthcare bill management",
+					"routes": [
+						"pending bills",
+						"approved bills",
+						"paid bills",
+						"rejected bills",
+						"pending refunds",
+						"approved refunds",
+						"paid refunds",
+						"rejected refunds"
+					]
+				},
+				{
+					"menu": "reports",
+					"routes": [
+						"employee report",
+						"provider report",
+						"bill report",
+						"refund report"
+					]
+				},
+				{ "menu": "admin utilities", "routes": ["create a user", "view users"] }
+			]
+		},
+		{
+			"id": 2,
+			"email": "irene@email.com",
+			"password": "rxhealthSystems",
+			"profile_image": "https://media.licdn.com/dms/image/D4D03AQG8w_m01LAJcQ/profile-displayphoto-shrink_400_400/0/1666702779052?e=1672876800&v=beta&t=uUOE9_kYkOqIYn84JW7pGTi0zw6fvAP6JXawNNl7Cys",
+			"first_name": "Irene",
+			"last_name": "Akita",
+			"role": "hr",
+			"access": [
+				{
+					"menu": "employee management",
+					"routes": [
+						"add new employee",
+						"pending registration",
+						"active employees",
+						"retired employees",
+						"contract staff",
+						"excuse duty",
+						"import employees",
+						"uploaded documents"
+					]
+				},
+				{
+					"menu": "benefit management",
+					"routes": ["create benefit", "view benefits"]
+				},
+				{
+					"menu": "provider management",
+					"routes": [
+						"activate a provider",
+						"active providers",
+						"all providers",
+						"providers with bills",
+						"providers without bills"
+					]
+				},
+				{
+					"menu": "healthcare bill management",
+					"routes": [
+						"pending bills",
+
+						"paid bills",
+						"rejected bills",
+						"pending refunds",
+
+						"paid refunds",
+						"rejected refunds"
+					]
+				},
+				{
+					"menu": "reports",
+					"routes": [
+						"employee report",
+						"provider report",
+						"bill report",
+						"refund report"
+					]
+				},
+				{ "menu": "admin utilities", "routes": [] }
+			]
+		}
+	],
 	"employees": [
 		{
 			"id": 1,
